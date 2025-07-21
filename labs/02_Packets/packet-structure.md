@@ -1,1 +1,49 @@
+# Packet Structure
 
+### Bits
+
+- Bits are the smallest unit of data and can only be ones or zeros
+
+- These get converted to electircal, optical, or wireless signals ( infarred and radio waves)
+
+- Bits are in the lowest layer known as the physical layer 
+
+- All the structured data from layers above gets converted into bits so that the user can send out information
+
+- Bits are carried across a medium such as fiber-optic cables or copper wiring
+
+### Frames 
+
+- Frames are located on the Data Link layer (layer 2) 
+
+- They carry/contain three headers. Two of which are from higher layers. The IP header, the UDP/TCP header, and the Frame header
+
+-  Frames typically carry a trailer for error checking. One of the error checking methods used is known as Frame Check Sequence (FCS). 
+
+- FCS generates a number based on the bits and compares it to the receiving end's data to determine if there was an error
+
+### Packets 
+
+- Packets are located on the Network layer ( layer 3 )
+
+- Packets carry fewer headers than frames do because the layers below carry more for reliable delivery
+
+-  Packets typically contain an IP header, do not have a trailer for error checking, and the TCP/UDP header.
+
+-  Packets are typically smaller and are broken down to make routing more efficient 
+
+- The main purpose of a packet is to route data across different networks
+
+### Segments
+
+- Segments are located in the Transport layer (Layer 4)
+
+- Segmenting's main job is splitting data into easy to manage pieces
+
+- It carries the TCP/UDP header, but nothing else as it has not been encapsulated yet
+
+- It is typically used to organize data before it is send to the recipient
+   
+
+
+  
