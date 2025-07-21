@@ -86,5 +86,19 @@
 
 - FTP stands for file transfer protocol. It allows you to download and upload files
 
+### Troubleshooting and Potential errors
+
+- An error that can occur at layer 1 is faulty or bad cables, it could happen from wearing, the cable quality could be low, or something could be unplugged. This causes data to not be able to be transmitted/transferred. You can check for errors through visual inspection. 
+
+- ARP typically fails at layer 2 you can check for inclomplete entries or errors by viewing the ARP table. You can view the table by going in the command prompt on windows and typing arp -a. Reasons this could happen is issues with switches, the cache is outdate, or there could be misconfigurations in the network. This cause packets to travel nowhere even when talking to a device on the same network because your MAC address can't be found. 
+
+- If you can't reach outside of a local network it typically means there is an error with routing at layer 3. This could happen due to misconfigurations, or issues with an IP address. You can use the ping tool to check connection to other networks and possibly use wireshark to check packet traveling.  
+
+- You can use event viewer to see network and system logs. These logs allow to see where, when, and what went wrong. System logs allow you to view errors with hardware, network logs allow you to see issues with things such as DNS and DHCP. You can also use Wireshark logs to see packet trafficking
+
+- Sometimes when using services that want or expect TCP they will instead get UDP, this can cause freezing or applications to timeout. Data could possibly be corrupted and/or lost. You can troubleshoot this by looking and open connections through netstat
+
+- DNS typically fails at the 7th layer and causes could be from DNS services being down, or a possible typo in DNS settings. You can't load websites when this happens and you can troubleshoot it by changing DNS settings or using nslookup to see if your DNS server is correctly working.
+
   
 
