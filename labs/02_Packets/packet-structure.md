@@ -58,4 +58,7 @@
 
 - MTU discovery is used to optimize transmission of data between networks
 
+### Summary of Lab
+
+Packets, frames, and segments are formatted units of data that carry a payload (data) over the network. They go through a process of encapsulation in which one layer engulfs another. For example at the Transport layer (layer 4) a segment gets ecapsulated to become a packet (layer 3 ) and the packet becomes engulfed to become a frame (layer 2). Frames carry and frame header, and typically have a trailer for error checking method such as FCS. As the encapsulation process goes down the layers, they add more headers, and continue to wrap in more data  After this the data gets converted into bits and sent out. If you were receiving info rather than sending it, the process is reversed and the bits are first turned into frames and so on until the data reaches the application layer ( layer 7 ) where the user can view the data. 
   
