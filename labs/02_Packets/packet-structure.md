@@ -44,6 +44,18 @@
 
 - It is typically used to organize data before it is sent to the recipient
    
+### Maximum Transmission Unit (MTU) and Fragmentation 
 
+- MTU is the maximum amount of data that can be transmitted by a frame or packet in a network
+
+- This setting is important and ties into fragmentation. If a packet or frame exceeds the limit of a network fragmentation is used to break it down into smaller pieces
+
+- Fragmentation is important but can have effects on network performance such as less efficient memory allocation
+
+- IP fragmentation occurs at the Network layer (layer 3)
+
+- Delays and packet loss can occur if fragments are lost
+
+- MTU discovery is used to optimize transmission of data between networks
 
   
