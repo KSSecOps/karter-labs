@@ -4,11 +4,11 @@
 
 - Bits are the smallest unit of data and can only be ones or zeros
 
-- These get converted to electircal, optical, or wireless signals ( infarred and radio waves)
+- These get converted to electircal, optical, or wireless signals ( infrared and radio waves)
 
 - Bits are in the lowest layer known as the physical layer 
 
-- All the structured data from layers above gets converted into bits so that the user can send out information
+- All the structured data ( things such as headers and the payload) from layers above gets converted into bits so that the user can send out information
 
 - Bits are carried across a medium such as fiber-optic cables or copper wiring
 
@@ -16,7 +16,7 @@
 
 - Frames are located on the Data Link layer (layer 2) 
 
-- They carry/contain three headers. Two of which are from higher layers. The IP header, the UDP/TCP header, and the Frame header
+- They carry the frame header and encapsulates the two headers in the layers above known as the the IP header and the UDP/TCP header
 
 -  Frames typically carry a trailer for error checking. One of the error checking methods used is known as Frame Check Sequence (FCS). 
 
@@ -38,11 +38,11 @@
 
 - Segments are located in the Transport layer (Layer 4)
 
-- Segmenting's main job is splitting data into easy to manage pieces
+- Segmenting's main job is splitting data into easier to manage pieces
 
-- It carries the TCP/UDP header, but nothing else as it has not been encapsulated yet
+- It carries the TCP/UDP header, but none of the other headers as it has not been encapsulated
 
-- It is typically used to organize data before it is send to the recipient
+- It is typically used to organize data before it is sent to the recipient
    
 
 
