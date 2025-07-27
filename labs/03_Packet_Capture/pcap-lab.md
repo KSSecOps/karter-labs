@@ -13,6 +13,8 @@
 
 **TTL:** 128
 
+<img width="1439" height="1194" alt="image" src="https://github.com/user-attachments/assets/9bd51f43-3e28-449d-ad62-019d799290ed" />
+
 ## Reply
 **Source MAC address:** e8:9c:25:2a:3f:dc
 
@@ -26,6 +28,7 @@
 
 **TTL:** 64
 
+<img width="2023" height="1581" alt="image" src="https://github.com/user-attachments/assets/7c9e25a5-3a49-4827-9fdd-64f2f03e8484" />
 
 
 ## Capture points
