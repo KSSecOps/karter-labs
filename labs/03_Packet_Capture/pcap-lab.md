@@ -28,4 +28,23 @@
 
 
 
+## Capture points
+Router - If I were to capture the packet traffic at the router it would be helpful in viewing traffic coming in from external sources and other networks. It allows you to see traffic from all the devices on the network as well which can be useful It can be extremely useful in monitoring outside threats in situations where security is priority. 
+
+NIC - If I were to capture packets here I would be able to monitor the traffic coming into the the specific device I am currently looking at. Only difference is I can't view packets going into other devices
+
+
+## Packet Understanding
+- The  Source and Destination MAC addresses are on layer 2 (Data link)  and tell which  devices on the same local network (LAN) are communicating with each other
+
+- Similarly to the MAC addresses, the source and destination IP addresses display what devices are coomunicating at the third layer ( Network layer)
+
+- A packet request is a device asking another device to recieve or obtain information
+
+- contrary to a request, a reply is when the device sends the data to the device that requested info
+
+- Protocols exists and function to determine how a packet is interpreted through things such as ICMP, TCP, and UDP
+
+- TTL or Time to live is the number of hops a packet can last or travel for. This is used to prevent them from endlessly travel in a network loop
+
 
